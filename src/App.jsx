@@ -1,4 +1,5 @@
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
@@ -18,6 +19,7 @@ function App() {
         <p>© {new Date().getFullYear()} Maicol Freire - Desarrollador Full-Stack</p>
       </footer>
       <Analytics />
+      <SpeedInsights />
     </div>
   );
 }
