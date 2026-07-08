@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
@@ -16,6 +17,7 @@ function App() {
       <footer className="bg-gray-950 py-6 text-center text-gray-600 border-t border-gray-900">
         <p>© {new Date().getFullYear()} Maicol Freire - Desarrollador Full-Stack</p>
       </footer>
+      <Analytics />
     </div>
   );
 }
